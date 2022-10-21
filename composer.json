@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MintPackages\\ResidencyValidator\\": "src/"
+            "Mintellity\\ResidencyValidator\\": "src/"
         }
     },
     "authors": [
