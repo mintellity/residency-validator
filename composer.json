@@ -1,0 +1,27 @@
+{
+    "name": "mintellity/residency-validator",
+    "description": "This package can be used to validate addresses.",
+    "type": "package",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MintPackages\\ResidencyValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eelamayooran Raveendran",
+            "email": "eelamayooran.raveendran@mintellity.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Mintellity\\ResidencyValidator\\ResidencyValidatorServiceProvider"
+            ]
+        }
+    }
+}
