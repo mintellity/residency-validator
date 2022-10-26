@@ -12,10 +12,11 @@ Require package in your composer.json:
   }
 ],
 
-"require": {
-  ...
-  "mintellity/residency-validator": "dev-master"
-}
+```
+
+```bash
+composer require "mintellity/residency-validator"
+php artisan vendor:publish --tag=residency-validator
 ```
 
 ### How to use it

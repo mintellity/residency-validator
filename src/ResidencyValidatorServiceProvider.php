@@ -14,7 +14,7 @@ class ResidencyValidatorServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/residency-validator.php' => config_path('residency-validator.php')
-        ]);
+        ], 'residency-validator');
     }
 
     /**
@@ -22,7 +22,7 @@ class ResidencyValidatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(ResidencyValidator::class, function (){
+        $this->app->singleton(ResidencyValidator::class, function () {
             return new ResidencyValidator();
         });
     }
