@@ -16,6 +16,9 @@ Require package in your composer.json:
 
 ```bash
 composer require "mintellity/residency-validator"
+```
+
+```bash
 php artisan vendor:publish --tag=residency-validator
 ```
 
