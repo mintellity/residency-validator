@@ -5,12 +5,12 @@ This package can be used to validate addresses.
 
 Require package in your composer.json:
 ```json
-"repositories": [
-  {
+"repositories": {
+  "mintellity/residency-validator": {
     "url": "https://github.com/mintellity/residency-validator.git",
     "type": "git"
   }
-],
+},
 
 ```
 
